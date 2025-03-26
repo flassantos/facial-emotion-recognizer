@@ -21,7 +21,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the script by passing the video file as an argument:
+
+First, download the `model.h5` file [in this link](https://drive.google.com/file/d/1UxjX07GMU1qwvkh1NoCamlqAgtSSSOUE/view?usp=sharing). Then, place the file inside this folder (the same folder as the `facial_emotions.py` file).
+
+Then, run the script by passing the video file as an argument:
 
 ```bash
 python facial_emotions.py <video_filename>
